@@ -1,0 +1,23 @@
+﻿  Source.cpp
+D:\Games\Chess\Chess\Source.cpp(52,37): warning C4305: аргумент: усечение из "double" в "float"
+D:\Games\Chess\Chess\Source.cpp(53,37): warning C4305: аргумент: усечение из "double" в "float"
+D:\Games\Chess\Chess\Source.cpp(54,37): warning C4305: аргумент: усечение из "double" в "float"
+D:\Games\Chess\Chess\Source.cpp(55,37): warning C4305: аргумент: усечение из "double" в "float"
+D:\Games\Chess\Chess\Source.cpp(89,37): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(89,67): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(98,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(99,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(157,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(158,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(179,43): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(179,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(179,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(179,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(179,24): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(201,27): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(202,27): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(216,12): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(216,20): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(223,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\Games\Chess\Chess\Source.cpp(223,19): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Chess.vcxproj -> D:\Games\Chess\x64\Debug\Chess.exe
