@@ -4,7 +4,7 @@ Queen::Queen(){
 	fillHelper();
 	value = 8;
 }
-
+//a
 void Queen::texture() {
 	glLineWidth(5);
 	glBegin(GL_LINES);
@@ -68,7 +68,7 @@ bool Queen::friendOnCell(Figure** friends, Point a){
 
 void Queen::fillPosibleFields(Figure** enemies, Figure** friends, Board board[][SIZE], bool kingCheck, vector<Point> check_list){
 	popFields();
-	bool onCell = false;//кто-то на клетке
+	bool onCell = false;//пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	int x, y,dx=0,dy=0;
 	Point a;
 	Figure* enemyObj;		

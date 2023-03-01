@@ -4,7 +4,7 @@ Pawn::Pawn(){
 	value = 1;
 	justStarted = false;
 }
-
+//a
 void Pawn::enPassant(Figure** enemies){
 	Point leftPassant = location, rightPassant = location;
 	leftPassant.x--;

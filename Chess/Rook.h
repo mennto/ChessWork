@@ -8,4 +8,4 @@ public:
 	Rook* getPointer();
 	void texture()override;
 	void fillPosibleFields(Figure** enemies, Figure** friends, Board board[][SIZE], bool kingCheck, vector<Point> check_list)override;
-};
+};//a

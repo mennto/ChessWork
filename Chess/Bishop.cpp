@@ -3,7 +3,7 @@
 Bishop::Bishop(){
 	value = 3;
 }
-
+//a
 void Bishop::texture(){
 	glLineWidth(5);
 	glBegin(GL_LINES);

@@ -14,7 +14,7 @@ void Knight::texture(){
 	glVertex2f(location.getX() + CELL- KNIGHT_SIZE, location.getY() + CELL - KNIGHT_SIZE);
 	glEnd();
 }
-
+//a
 void Knight::fillHelper(){
 	int masX[] = { 1,2,2,1,-1,-2,-2,-1};
 	int masY[] = { 2,1,-1,-2,-2,-1,1,2 };

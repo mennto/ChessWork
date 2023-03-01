@@ -16,4 +16,4 @@ public:
 	void setPosithion(Point a);
 	void setDefByWhite(bool a);
 	void setDefByBlack(bool a);
-};
+};//a

@@ -13,7 +13,7 @@ void Rook::texture(){
 	glVertex2f(location.getX() + CELL - ROOK_SIZE, location.getY() + CELL - ROOK_SIZE);//2.7 2.7
 	glEnd();
 }
-
+//a
 bool Rook::enemyOnCell(Figure** enemies, Point a, Figure*& enemyObj) {
 	for (int i = 0; i < CNT; i++)
 		if (enemies[i]->getLocation() == a) {

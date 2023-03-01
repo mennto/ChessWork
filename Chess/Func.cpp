@@ -9,7 +9,7 @@ void DrawSquare(float x, float y, float red, float green, float blue) {
     glVertex2f(x + CELL, y + CELL);
     glEnd();
 }
-
+//a
 void DrawSquare(float x, float y,bool check){
     glBegin(GL_TRIANGLE_STRIP);
     if (check)

@@ -12,7 +12,7 @@
 #include "Func.h"
 #include "Board.h"
 using namespace std;
-
+//a
 float x, y;
 bool active,turn,panel,endGame;//true-white false-black
 Figure* buf;
@@ -21,7 +21,7 @@ vector <Point>check_listB;
 vector <Figure*> transform;
 Figure* lastLine;
 Rook* pNewRook;
-Board board[SIZE][SIZE];//наше поле
+Board board[SIZE][SIZE];//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 //WHITE FIGURES
 Pawn w1, w2, w3, w4, w5, w6, w7, w8;
 Rook wr1,wr2;
@@ -38,7 +38,7 @@ Queen blackQueen;
 King blackKing;
 Bishop bb1, bb2;
 Figure* black[CNT] = {&br1,&bk1,&bb1,&blackQueen,&blackKing,&bb2,&bk2 ,&br2, &b1, &b2, &b3, &b4, &b5, &b6, &b7, &b8};
-//пешка->ладья->конь->слон->ферзь->король
+//пїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅ->пїЅпїЅпїЅпїЅпїЅпїЅ
 void pawnOnLastLine(Figure** mas) {
     for (int i = 8; i < CNT; i++) 
         if (mas[i]->getSide() && mas[i]->getLocation().getY() == 8&&mas[i]->getValue()==1||
@@ -188,7 +188,7 @@ void figuresWalk(Figure** mas,float x,float y,Figure** enemies,King friendKing, 
         if (x >= minX + 0.01 && x <= minX + CELL - 0.01 &&
             y >= minY + 0.01 && y <= minY + CELL - 0.01) {
             mas[i]->setTextureColor(0.5);
-             mas[i]->fillPosibleFields(enemies, mas,board,friendKing.getCheck(),check_list);//перенесты от сюдова нахрен
+             mas[i]->fillPosibleFields(enemies, mas,board,friendKing.getCheck(),check_list);//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
             active = true;
             buf = mas[i];
             return;

@@ -7,7 +7,7 @@ Figure::Figure(float x, float y) {
 	location.setX(x);
 	location.setY(y);
 }
-
+//a
 vector<Point> Figure::getPosibleFields(){
 	return possible_fields;
 }
@@ -100,7 +100,7 @@ void Figure::showPosibleFields() {
 		DrawSquare(possible_fields[i].x, possible_fields[i].y,false);
 }
 
-void Figure::del(){//перву фигуру яку встречаешь, проверяешь есть ли за ней король, если да то связываешь
+void Figure::del(){//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	location.x = 10;
 	location.y = 10;
 }

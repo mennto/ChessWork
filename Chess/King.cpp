@@ -9,7 +9,7 @@ King::King(){
 
 bool King::getCheck(){
 	return check;
-}
+}//a
 
 bool King::isMate(Figure** friends){
 	for (int i = 0; i < CNT; i++)
