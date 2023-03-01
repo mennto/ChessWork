@@ -7,7 +7,7 @@
 #include "Board.h"
 
 using namespace std;
-//a
+
 class Figure {
 protected:
 	Point location;

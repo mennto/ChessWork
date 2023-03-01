@@ -12,7 +12,7 @@
 #include "Func.h"
 #include "Board.h"
 using namespace std;
-//a
+
 float x, y;
 bool active,turn,panel,endGame;//true-white false-black
 Figure* buf;

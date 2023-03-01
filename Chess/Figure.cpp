@@ -7,7 +7,7 @@ Figure::Figure(float x, float y) {
 	location.setX(x);
 	location.setY(y);
 }
-//a
+
 vector<Point> Figure::getPosibleFields(){
 	return possible_fields;
 }

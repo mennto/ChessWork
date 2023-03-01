@@ -11,4 +11,4 @@ public:
 	void texture()override;
 	void fillPosibleFields(Figure **enemies,Figure **friends, Board board[][SIZE], bool kingCheck, vector<Point> check_list)override;
     bool move(float x, float y, Figure** friends, Figure** enemies)override;
-};//a
+};

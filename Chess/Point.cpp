@@ -14,7 +14,7 @@ Point::Point(float x, float y){
 float Point::getX(){
 	return x;
 }
-//a
+
 float Point::getY(){
 	return y;
 }

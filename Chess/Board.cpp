@@ -1,5 +1,5 @@
 #include "Board.h"
-//a
+
 Board::Board(){
 	defByWhite = false;
 	defByBlack = false;

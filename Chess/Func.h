@@ -10,4 +10,3 @@ void cleanDefended();
 void fillPosibleWays();
 void check();
 int focus();
-//a

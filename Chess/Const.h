@@ -6,4 +6,3 @@
 #define KOF 0.5
 #define FAULT 0.1
 #define CNT 16
-//a

@@ -4,7 +4,7 @@ Queen::Queen(){
 	fillHelper();
 	value = 8;
 }
-//a
+
 void Queen::texture() {
 	glLineWidth(5);
 	glBegin(GL_LINES);

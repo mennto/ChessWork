@@ -9,7 +9,7 @@ protected:
 public:
 	King();
 	bool getCheck();
-//a
+
 	bool isMate(Figure** friends);
 	bool enemyFields(Figure *a,Point j);
 	bool isCheck(Figure **enemies,vector<Point> &check_list);

@@ -6,7 +6,7 @@ struct Point{
 public:
 	Point();
 	Point(float x, float y);
-//a
+
 	float getX();
 	float getY();
 	bool getSafe();
